@@ -16,7 +16,7 @@ public class LevelCompletePanel : ShowHidable
         _toastTxt.text = _toasts.GetRandom();
         _toastTxt.gameObject.SetActive(true);
         //TODO ADD COIN
-        AdsManager.ShowOrPassAdsIfCan();
+        //AdsManager.ShowOrPassAdsIfCan();
     }
 
 

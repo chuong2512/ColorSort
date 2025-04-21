@@ -34,7 +34,7 @@ public class GamePlayPanel : ShowHidable
 
     public void OnClickSkip()
     {
-        if (!AdsManager.IsVideoAvailable())
+        /*if (!AdsManager.IsVideoAvailable())
         {
             SharedUIManager.PopUpPanel.ShowAsInfo("Connection?","Sorry no video ads available.Check your internet connection!");
             return;
@@ -53,7 +53,7 @@ public class GamePlayPanel : ShowHidable
                 UIManager.Instance.LoadNextLevel();
             });
           
-        });
+        });*/
     }
 
     public void OnClickMenu()
