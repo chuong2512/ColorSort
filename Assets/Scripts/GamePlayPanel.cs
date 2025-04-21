@@ -58,13 +58,14 @@ public class GamePlayPanel : ShowHidable
 
     public void OnClickMenu()
     {
-        SharedUIManager.PopUpPanel.ShowAsConfirmation("Exit?","Are you sure want to exit the game?", success =>
+        GameManager.LoadScene("MainMenu");
+        /*SharedUIManager.PopUpPanel.ShowAsConfirmation("Exit?","Are you sure want to exit the game?", success =>
         {
             if(!success)
                 return;
-
             GameManager.LoadScene("MainMenu");
-        });
+            
+        });*/
     }
 
     private void Update()

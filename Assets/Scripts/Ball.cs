@@ -9,6 +9,7 @@ public class Ball : MonoBehaviour
 {
     [SerializeField] private int _groupId;
     [SerializeField] private SpriteRenderer _renderer;
+    [SerializeField] private SpriteRenderer extraRenderer;
     [SerializeField] private Color[] _groupColors = new Color[0];
     [SerializeField] private Sprite[] _groupSprites = new Sprite[0];
     [SerializeField] private bool _useSprites = true;

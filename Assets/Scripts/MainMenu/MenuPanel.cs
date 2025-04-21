@@ -16,7 +16,7 @@ namespace MainMenu
 
         public void OnClickExit()
         {
-
+            Application.Quit();
         }
 
     }

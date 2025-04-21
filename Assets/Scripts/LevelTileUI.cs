@@ -21,7 +21,7 @@ public class LevelTileUI : MonoBehaviour,IPointerClickHandler
         set
         {
             _txt.text = value.Level.no.ToString();
-            _fillImg.color = _fillImg.color.WithAlpha(value.Locked ? 0 : 1);
+            //_fillImg.color = _fillImg.color.WithAlpha(value.Locked ? 0 : 1);
             _completeMark.SetActive(value.Completed);
             _lockMark.SetActive(value.Locked);
             _mViewModel = value;
