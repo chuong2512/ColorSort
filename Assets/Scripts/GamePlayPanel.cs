@@ -12,10 +12,12 @@ public class GamePlayPanel : ShowHidable
 {
     [SerializeField] private Button _undoBtn;
     [SerializeField] private Text _lvlTxt;
+    [SerializeField] private Text _lvlTxt2;
 
     private void Start()
     {
         _lvlTxt.text = $"Level {LevelManager.Instance.Level.no}";
+        _lvlTxt2.text = $"Level {LevelManager.Instance.Level.no}";
     }
 
     public void OnClickUndo()

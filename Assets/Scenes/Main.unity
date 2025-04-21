@@ -1930,6 +1930,7 @@ MonoBehaviour:
   dependObjects: []
   _undoBtn: {fileID: 1076221896}
   _lvlTxt: {fileID: 4981004}
+  _lvlTxt2: {fileID: 13320802}
 --- !u!1 &934668491
 GameObject:
   m_ObjectHideFlags: 0
