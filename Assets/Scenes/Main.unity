@@ -823,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &369287652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1208,7 +1208,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 654353909}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 369287655}
+        m_TargetAssemblyTypeName: LevelCompletePanel, Assembly-CSharp
+        m_MethodName: OnClickContinue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &654353909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1843,6 +1855,7 @@ MonoBehaviour:
   dependObjects: []
   _undoBtn: {fileID: 1076221896}
   _lvlTxt: {fileID: 4981004}
+  _lvlTxt2: {fileID: 13320802}
 --- !u!1 &934668491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2772,7 +2785,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1336963592}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 923333117}
+        m_TargetAssemblyTypeName: GamePlayPanel, Assembly-CSharp
+        m_MethodName: OnClickMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1336963592
 MonoBehaviour:
   m_ObjectHideFlags: 0
