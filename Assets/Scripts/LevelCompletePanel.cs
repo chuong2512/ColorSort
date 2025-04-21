@@ -17,6 +17,7 @@ public class LevelCompletePanel : ShowHidable
         _toastTxt.gameObject.SetActive(true);
         //TODO ADD COIN
         //AdsManager.ShowOrPassAdsIfCan();
+        GameDataManager.Instance.playerData.AddDiamond(5);
     }
 
 

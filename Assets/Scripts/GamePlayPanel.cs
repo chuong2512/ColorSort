@@ -54,6 +54,12 @@ public class GamePlayPanel : ShowHidable
             });
           
         });*/
+        var price = 20;
+        if (GameDataManager.Instance.playerData.intDiamond >= price)
+        {
+            GameDataManager.Instance.playerData.SubDiamond(price);
+            UIManager.Instance.LoadNextLevel();
+        }
     }
 
     public void OnClickMenu()
